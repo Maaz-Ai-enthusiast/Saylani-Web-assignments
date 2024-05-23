@@ -1,0 +1,378 @@
+@media (max-width:1200px) {
+
+    .right_sec{
+
+        gap: 10px;
+    
+    }
+
+    .right_sec a{
+
+        font-size: .7rem;
+ 
+    }
+
+    .left_sec{
+
+        gap: 10px;
+    }
+
+    .left_sec .text1 ,.text2{
+
+        font-size: .7rem;
+    }
+    .left_sec .text1{
+
+        padding-right: 10px;
+
+    }
+
+
+    .left_sec button{
+
+        padding: 8px 13px;
+        font-size: .7rem;
+    }
+
+    .left_sec i{
+        display: none;
+    }
+
+    /* MAIN START */
+
+    .a2 .text3{
+
+        font-size: .8rem;
+        color:gray ;
+        margin-top: 20px;
+    
+    }
+    .a3{
+
+        gap: 22px;
+        margin-top: 10px;
+    
+    }
+    .a3 img{
+    
+        height: 14px;
+    
+    }
+
+}
+@media (max-width:992px) {
+
+    .header_wrapper{
+
+        padding: 10px 45px;
+
+    }
+    .right_sec a{
+
+        display: none;
+    }
+    
+    .left_sec .text1 ,.text2{
+        display: none;
+    }
+    .left_sec button{
+
+        display: none;
+ 
+    }
+
+    .left_sec i{
+
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 700;
+
+    }
+
+    /* MAIN START */
+
+    .m1_wrapper{
+
+        padding: 0px 25px;
+ 
+    }
+    
+    .a2{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    
+    }
+    .a2 .text1{
+    
+        font-size: 2.4rem;
+    
+    }
+    .a2 .text2{
+    
+        font-size: .6rem;
+    
+    }
+    .a2 button{
+    
+        font-size: .6rem;
+    
+    }
+    .a2 .text3{
+    
+        font-size: .6rem;
+
+    
+    }
+    .a3{
+    
+        display: flex;
+        gap: 14px;
+        margin-left: 16px;
+    
+    }
+    .a3 img{
+    
+        height: 14px;
+    
+    }
+    
+    .right_img{
+    
+        height: 300px;
+        margin-top: 100px;
+    
+    }
+
+    .m2,.m3,.m4,.m5{
+        flex-direction: column;
+    }
+}
+@media (max-width:768px) {
+
+    .header_wrapper{
+
+        padding: 10px 40px;
+
+    }
+
+
+    .right_sec img{
+        height: 40px;
+    }
+    .right_sec a{
+
+        display: none;
+    }
+
+    .left_sec .text1 ,.text2{
+        display: none;
+    }
+    .left_sec button{
+
+        display: none;
+ 
+    }
+
+    .left_sec i{
+
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+
+    /* MAIN START */
+    
+
+    .m1_wrapper{
+
+        flex-direction: column;
+        padding: 0;
+
+        
+    }
+    
+    .a1_main_left{
+    
+        padding: 0 10px;
+        width: 100vw;
+        margin-top: 50px;
+    
+    }
+    .a2{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    
+    }
+    .a2 .text1{
+    
+        font-size: 3.3rem;
+        font-weight: 800;
+        line-height: 1;
+    
+    }
+    .a2 .text2{
+    
+        font-size: .78rem;
+        color: gray;
+    
+    }
+    .a2 button{
+
+     font-size: .78rem;
+
+    }
+    .a2 .text3{
+    
+        font-size: .78rem;
+    
+    }
+    .a3{
+    
+        display: flex;
+        gap: 17px;
+    
+    }
+    .a3 img{
+    
+        height: 17px;
+    
+    }
+    
+    .right_img{
+
+        height: 520px;
+        width: 70vw;
+        margin-top: 30px;
+        margin-left: 15vw;
+    
+    
+    }
+
+    .m2,.m3,.m4,.m5{
+        flex-direction: column;
+    }
+
+  
+    
+}
+@media (max-width:576px) {
+ 
+
+    .header_wrapper{
+
+        padding: 10px 30px;
+
+    }
+
+
+    .right_sec img{
+        height: 40px;
+    }
+    .right_sec a{
+
+        display: none;
+    }
+
+    .left_sec .text1 ,.text2{
+        display: none;
+    }
+    .left_sec button{
+
+        display: none;
+ 
+    }
+
+    .left_sec i{
+
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+
+
+/* MAIN START */
+
+    .m1_wrapper{
+
+        flex-direction: column;
+        padding: 0;
+
+        
+    }
+    
+    .a1_main_left{
+    
+        padding: 0 10px;
+        width: 100vw;
+        margin-top: 50px;
+    
+    }
+    .a2{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .a2 .text1{
+    
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: 1;
+    
+    }
+    .a2 .text2{
+    
+        font-size: .6rem;
+        color: gray;
+    
+    }
+    .a2 button{
+
+     font-size: .5rem;
+
+    }
+    .a2 .text3{
+    
+        font-size: .5rem;
+    
+    }
+    .a3{
+    
+        display: flex;
+        gap: 15px;
+    
+    }
+    .a3 img{
+    
+        height: 14px;
+    
+    }
+    
+    .right_img{
+
+        height: 520px;
+        width: 80vw;
+        margin-top: 30px;
+        margin-left: 10vw;
+    
+    
+    }
+
+    .m2,.m3,.m4,.m5{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+

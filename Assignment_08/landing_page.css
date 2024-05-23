@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'caveman';
+  src: url(./fonts/caveman/CAVEMAN_.TTF);
+}
+@font-face {
+  font-family: 'discovery';
+  src: url(./fonts/discovery/DISCOVERY.ttf);
+}
+@font-face {
+  font-family: 'education';
+  src: url(./fonts/Educated.ttf);
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  position: relative;
+  overflow-x: hidden;
+
+}
+.upper_bg_image{
+  height: 90vh;
+  width: 100vw;
+  position:absolute;
+  background-image: url(./img/image.png);
+  background-size: cover;
+  z-index: -1000;
+}
+
+
+.nav_bar{
+  height: 15%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav_bar .title p{
+  font-family: 'caveman';
+  font-size: 2rem;
+}
+.options ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.options ul li{
+  list-style: none;
+
+}
+.options ul li a{
+  text-decoration: none;
+  font-family: 'discovery';
+}
+.sign_up{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.sign_up p{
+  font-family: 'discovery';
+}
+.menu_icon i{
+  font-size: 2rem;
+}
+
+/* MAIN START */
+
+.financial_wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 40%;
+  position: relative;
+  left: 15vw;
+  top: 10vh;
+}
+.financial_box{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 90%;
+  padding: 0 5%;
+}
+.financial_box .text1{
+height: auto;
+width:40%;
+font-size: 3.5rem;
+font-weight:bolder;
+line-height:.9;
+font-family: 'education';
+letter-spacing: 3px;
+}
+.financial_box .text2{
+  height: auto;
+  width:80%;
+  margin: 20px 0;
+  color: rgb(231, 227, 227);
+}
+.btn_box{
+  height: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.btn1{
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 0 5%;
+}
+.btn2{
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.lower_img{
+  height: 700px;
+  position: absolute;
+  right: -20px;
+  top: 100px;
+  z-index: -1;
+  display: inline-block;
+}
+.upper_img{
+  height: 700px;
+  position: absolute;
+  right: 250px;
+  top: 160px;
+  z-index: 1;
+  display: inline-block;
+}
+.company_logo{
+  height: 200px;
+  width: 100vw;
+  position:absolute;
+  top: 800px;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  justify-content: space-evenly;
+}
+.name{
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 15px;
+}
+.name img{
+  height: 40px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media (max-width:1200px){
+  .nav_bar .title p{
+    font-size: 1rem;
+  }
+  .menu_icon i{
+    font-size: 3rem;
+  }
+  .options ul li a{
+    font-size: .6rem;
+  }
+  .menu_icon i{
+    display: none;
+  }
+  .sign_up p{
+    font-size: .6rem;
+  }
+
+  
+}
+
+@media (max-width:700px) {
+  .options ul,.sign_up{
+    display: none;
+  }
+
+  .menu_icon i{
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+}
